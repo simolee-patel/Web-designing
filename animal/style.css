@@ -1,0 +1,58 @@
+ body{
+     margin: 0;
+     padding: 0;
+     font-family: 'century gothic';
+     background-color:black ;
+ }
+ img{
+        height: 100%;
+}
+.logo
+{
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.indicator-item
+{
+    padding:0;
+}
+.carousel
+{
+    margin-top: -1px;
+}
+header{
+    position: fixed;
+    top: 0;
+    height: 60px;
+    padding: 10px;
+    left: 1000px;
+    width: 250px;
+    right: 0;
+    z-index: 1;
+    padding: 5px;
+    display: flex;
+    background-color:#afb42b;
+}
+header ul{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    position: fixed;   
+}
+header a{
+    font-size: 19px;
+    font-weight: 700;
+    color: black;
+    margin: 5px 24px 28px 24px;   
+}
+.row
+{
+    padding: 40px;
+}
+.img2
+{
+    margin-top: -20px;
+}

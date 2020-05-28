@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moon perelax</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <img id="bg" src="bg.png">
+        <img id="build" src="buildings.png">
+        <img id="moon" src="moon.png">
+        <h2 id="text">Build</h2>
+
+    </section>
+    <script type="text/javascript">
+        let bg = document.getElementById("bg")
+        let build = document.getElementById("build")
+        let moon = document.getElementById("moon")
+
+        window.addEventListener('scroll', function () {
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            build.style.top = value * 0.15 + 'px';
+            text.style.top = value * 1 + 'px';
+        })
+    </script>
+</body>
+
+</html>
